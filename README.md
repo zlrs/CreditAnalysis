@@ -1,9 +1,9 @@
 # CreditAnalysis
 模拟登录UESTC教务系统并查询所有已修课程信息。
-分为两个模块：登录模块和本地数据解析模块
+分为两个模块：登录模块和本地数据分析模块
 
 ## 登录模块
-登录模块位于/session文件夹，配置文件是config.json。它先登录教务系统，再爬取课程数据，输出到.\session\data_page.html
+登录模块位于\session文件夹，配置文件是config.json。它先登录教务系统，再爬取课程数据，输出到.\session\data_page.html
 
 config.json的格式如下：
 
